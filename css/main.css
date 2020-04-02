@@ -85,6 +85,7 @@ h5 {
 }
 
 @keyframes animeDiv {
+
 	0%,
 	100%,
 	40% {
@@ -123,7 +124,7 @@ h5 {
 }
 
 .navbar-brand {
-	width: 200px;
+	width: 150px;
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -140,18 +141,18 @@ h5 {
 	color: #fff;
 }
 
-.navbar-light .navbar-nav .active > .nav-link,
+.navbar-light .navbar-nav .active>.nav-link,
 .navbar-light .navbar-nav .nav-link.active,
 .navbar-light .navbar-nav .nav-link.show,
-.navbar-light .navbar-nav .show > .nav-link {
+.navbar-light .navbar-nav .show>.nav-link {
 	font-weight: 700;
 	color: #fff723;
 }
 
-.navbar-light .navbar-nav .active > .nav-link,
+.navbar-light .navbar-nav .active>.nav-link,
 .navbar-light .navbar-nav .nav-link.active,
 .navbar-light .navbar-nav .nav-link.show,
-.navbar-light .navbar-nav .show > .nav-link:hover {
+.navbar-light .navbar-nav .show>.nav-link:hover {
 	font-weight: 700;
 }
 
@@ -160,7 +161,7 @@ h5 {
 }
 
 .navbar-toggler span {
-	color: #1a1a1a;
+	color: #fff;
 	font-size: 25px;
 	border: none;
 	margin-right: 20px;
@@ -168,7 +169,7 @@ h5 {
 }
 
 .navbar-light .navbar-toggler {
-	color: #1a1a1a;
+	color: #ffff;
 	border-color: none;
 }
 
@@ -246,7 +247,7 @@ h5 {
 }
 
 .hero_caption {
-	max-width: 85%;
+	max-width: 75%;
 	margin: 20% 0;
 	color: #fff;
 }
@@ -258,6 +259,12 @@ h5 {
 
 .hero_h5 {
 	line-height: 1.7;
+	font-weight: 300 !important;
+}
+
+.title_hero_top {
+	font-weight: 400;
+	letter-spacing: 1px;
 }
 
 .sub_title_home {
@@ -338,6 +345,7 @@ h5 {
 .curso_box {
 	padding: 0 20px;
 }
+
 .course_list {
 	margin-top: 20px;
 }
@@ -359,6 +367,7 @@ h5 {
 	font-weight: 600;
 	text-transform: capitalize;
 }
+
 .card-img-top {
 	height: 200px;
 }
@@ -406,6 +415,7 @@ h5 {
 	font-size: 55px;
 	color: #001d62;
 }
+
 /*===list courses====*/
 
 .list_courses {
@@ -469,4 +479,77 @@ h5 {
 	color: #000;
 	background-color: #fff723;
 	padding: 10px 0;
+}
+
+/*========= media quieres ==========*/
+@media (min-width: 320px) and (max-width: 750px) {
+	.navbar-brand img {
+		width: 120px;
+		margin-left: 20px;
+	}
+
+	.hero_caption {
+		max-width: 100%;
+		margin: 40% 0;
+		text-align: center;
+	}
+
+	.title_hero {
+		font-size: 1.5rem;
+	}
+
+	.hero_h5 {
+		font-size: 1rem;
+	}
+
+	.title_hero_top {
+		font-size: 1.3rem;
+	}
+
+	.sub_title_home {
+		font-weight: normal;
+		margin-bottom: 20px;
+	}
+
+	#hero {
+		height: 550px;
+	}
+
+	.benefits_content {
+		max-width: 100%;
+		margin: auto;
+		background-color: #fff;
+		padding: 30px;
+	}
+
+	.title_section {
+		font-size: 1.7rem;
+	}
+
+	.section_p_title_bottom {
+		max-width: 100%;
+		padding: 0 20px;
+	}
+
+	.cursos {
+		text-align: center;
+		padding: 0 20px;
+	}
+
+	.cursos img {
+		margin-top: 40px;
+		margin-bottom: 40px;
+	}
+
+	.footer {
+		padding: 30px 20px;
+	}
+
+	.footer h3 {
+		padding-top: 20px;
+	}
+
+
+
+
 }
